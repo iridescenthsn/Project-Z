@@ -3,24 +3,24 @@
 
 #include "Portal.h"
 
-#include "CollisionChannels.h"
+#include "../CollisionChannels.h"
 #include "PortalActor.h"
 #include "PortalComponent.h"
-#include "Components/SceneCaptureComponent2D.h"
 #include "Portal_Wall.h"
-#include "Kismet/GameplayStatics.h"
-#include "GameFramework/PlayerController.h"
-#include "Engine/TextureRenderTarget2D.h"
-#include "Player/FPS_Character.h"
 #include "Camera/CameraComponent.h"
 #include "Components/BoxComponent.h"
 #include "Components/CapsuleComponent.h"
-#include "Kismet/KismetMathLibrary.h"
+#include "Components/SceneCaptureComponent2D.h"
+#include "Engine/TextureRenderTarget2D.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/PawnMovementComponent.h"
+#include "GameFramework/PlayerController.h"
 #include "GameFramework/ProjectileMovementComponent.h"
-#include "Projectiles/Projectile.h"
+#include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "../Player/FPS_Character.h"
+#include "../Projectiles/Projectile.h"
 
 // Sets default values
 APortal::APortal()

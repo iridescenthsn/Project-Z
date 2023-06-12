@@ -21,9 +21,9 @@
 #include "Components/SphereComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "ProjectZ/CollisionChannels.h"
-#include "ProjectZ/Portal.h"
-#include "ProjectZ/PortalActor.h"
-#include "ProjectZ/PortalComponent.h"
+#include "ProjectZ/Portal/Portal.h"
+#include "ProjectZ/Portal/PortalActor.h"
+#include "ProjectZ/Portal/PortalComponent.h"
 
 
 // Sets default values

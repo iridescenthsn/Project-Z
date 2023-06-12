@@ -12,7 +12,7 @@
 #include "../Interactable/WeaponPickUp.h"
 #include "Perception/AISense_Hearing.h"
 #include "ProjectZ/CollisionChannels.h"
-#include "ProjectZ/Portal.h"
+#include "ProjectZ/Portal/Portal.h"
 
 
 // Sets default values

@@ -8,8 +8,8 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/KismetSystemLibrary.h"
-#include "ProjectZ/PortalComponent.h"
-#include "../Portal.h"
+#include "ProjectZ/Portal/PortalComponent.h"
+#include "../Portal/Portal.h"
 #include "ProjectZ/CollisionChannels.h"
 
 
